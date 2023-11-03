@@ -69,12 +69,7 @@ Lo que sucede es que cada línea del archivo de texto termina con un carácter n
 El siguiente código nos permite visualizarlo utilizando la función `repr` (*representación*). Escríbelo en un nuevo archivo (por ejemplo, `beatles2.py`), ejecútalo y observa la salida.
 
 ```python
-f = open("beatles.txt", "r", encoding="utf8")
-for line in f:
-    for caracter in line:
-        print(repr(caracter), end=" ")
-    print()
-f.close()
+`Usar repr para ver los \n`
 ```
 
 Puedes observar, al final de cada línea, el carácter `"\n"`. 
